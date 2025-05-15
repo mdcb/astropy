@@ -32,3 +32,9 @@ class SAMPProxyError(xmlrpc.Fault):
     """
     SAMP Proxy Hub exception.
     """
+
+
+class SAMPProxyTimeout(SAMPProxyError):
+    """
+    SAMP Proxy Hub timeout exception.
+    """
